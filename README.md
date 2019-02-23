@@ -11,6 +11,13 @@ What do the first, second, and third appearances of the number 10 do in the code
     
 How many times does the loop body run each frame, once the x and y arrays are full?
 
+6 times, because there has 6 Circles.
+
 What are two ways of increasing the spacing between rings?
 
+change "i = i + 20" to affect the radius of each circle
+
 How can you make the ellipse trail longer?
+
+change code "x = x.slice(-100) and y = y.slice(-100);" to make the program keep more values.
+  
