@@ -11,9 +11,12 @@ function draw() {
 
   x.push(mouseX); // equivalent to append(x, mouseX)
   y.push(mouseY); // equivalent to append(y, mouseY)
+  //it will make the ellipse follow the mouse moveing.
 
   for (var i = 0; i < x.length; i = i + 10) {
+    //if i = i + x so change x will affect the radius of each circle
     ellipse(x[i], y[i], 1 + (x.length - i));
+    //5 + (x.length - i) is the diameter of the ellipse
   }
 
   x = x.slice(-90); // keep the last 90 x values
