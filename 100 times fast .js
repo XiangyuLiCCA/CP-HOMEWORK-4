@@ -4,8 +4,8 @@ function setup() {
 }
 
 function draw() {
-  for (var x = random(width); x < width; x += 1600)
-    for (var y = random(height); y < height; y += 1600) {
+  for (var x = random(width); x < width; x += 40)
+    for (var y = random(height); y < height; y += 40) {
 
       stroke(x, y, 100);
       point(x, y);
